@@ -6,9 +6,9 @@ public class Fatorial {
 		throw new IllegalArgumentException("nao existe fatorial para numeros negativos");
 	   
 	   int resultado = 1;
-	   if (n != 0){
-	   	for (int i = 2; i <=n; i++)
-		   resultado*=i;
+	   if (n!=0){
+	     for (int i = 2; i <=n; i++)
+		resultado*=i;
 	   }
 	   return resultado;
 	}

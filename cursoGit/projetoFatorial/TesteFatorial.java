@@ -4,8 +4,5 @@ class TesteFatorial{
 		Fatorial fat = new Fatorial();
 		int resultado = fat.calcularFatorial(0);
 		System.out.println(resultado);
-		
-		resultado = fat.calcularFatorial(4);
-		System.out.println(resultado);
 	}
 }
